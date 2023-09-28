@@ -11,13 +11,14 @@
 /*!------------------------------------HEADER----------------------------------*/
 header {
     width: 100%;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     position: sticky;
     top: 0;
     font-family: 'Ubuntu', sans-serif;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    z-index: 1;
 }
 
 header h1 {
@@ -63,7 +64,7 @@ header h1 {
 }
 
 .services h2 {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.749);
     text-align: center;
     font-size: 30px;
     font-family: 'Ubuntu', sans-serif;
@@ -118,7 +119,7 @@ header h1 {
 }
 
 .projects h2 {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.749);
     text-align: center;
     font-size: 30px;
     font-family: 'Ubuntu', sans-serif;
@@ -170,6 +171,94 @@ header h1 {
     width: 50px;
     height: 50px;
 }
+/*?----------------------------------SERVICIOS---------------------------------*/
+.disenos{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.disenos .titulo-servicios{
+    background-color: rgba(0, 0, 0, 0.749);
+    text-align: center;
+    font-size: 30px;
+    color: rgb(207, 185, 225);
+    padding: 10px;
+}
+
+.disenos p{
+    text-align: center;
+    padding: 15px;
+}
+.disenos h3{
+    text-align: center;
+    padding: 10px;
+}
+ /*- AUTOMATIZACIÓN -*/   
+.automation{
+    display: flex;
+    justify-content:space-evenly;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.disenos .automation .automation-img{
+    width: 60%;
+    height: 450px;
+    border: 2px solid gray;
+}
+.disenos .automation .automation-img img{
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+}
+
+ /*- SEGURIDAD ELECTRONICA -*/   
+.security{
+    display: flex;
+    justify-content:space-evenly;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.disenos .security .security-img{
+    width: 60%;
+    height: 450px;
+    border: 2px solid gray;
+}
+.disenos .security .security-img img{
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+}
+ /*- CABLEADO ESTRUCTURADO -*/ 
+ .coms{
+    display: flex;
+    justify-content:space-evenly;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.disenos .coms .coms-img{
+    width: 60%;
+    height: 450px;
+    border: 2px solid gray;
+}
+.disenos .coms .coms-img img{
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+}  
+
+.accordion{
+    width: 30%;
+}
+
+.accordion-button{
+    background-color:rgb(207, 185, 225) !important;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+}
+.accordion-button:focus{
+    box-shadow:none;
+}
+
 
 /*?----------------------------------PROYECTOS---------------------------------*/
 
@@ -208,23 +297,27 @@ header h1 {
 }
 
 /*!------------------------------------FOOTER---------------------------------*/
-
 footer {
-    background-color: rgb(186, 182, 189);
+    background-color:rgb(186, 182, 189);
+    height: 120px;
 }
 
 footer h2 {
     font-family: 'Ubuntu', sans-serif;
     font-size: 30px;
     color: rgb(111, 34, 173);
-    padding: 20px;
+    padding: 10px;
 }
 
-footer div a img {
-    width: 50px;
-    height: 50px;
-    margin-bottom: 10px;
-    margin-left: 20px;
+footer div{
+    margin: 10px;
+}
+
+.bi{ /*- BS ICONOS -*/
+    font-size: 30px;
+    color: rgb(40, 3, 71);
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 /*!------------------------------------RESPONSIVE---------------------------------*/
@@ -318,7 +411,8 @@ footer div a img {
     .nav-link{ /*- BS NAVBAR -*/
         margin: 5px;
         padding: 0;
-        font-size: 8px;
+        font-size: 15px;
+        font-weight: 380;
     }
 }
 
@@ -393,8 +487,8 @@ footer div a img {
         margin-left: 15px;
     }
     .nav-link { /*- BS NAVBAR -*/
-        font-size: 15px;
-        font-weight: 380;
+        font-size: 13px;
+        font-weight: 350;
     }
     .container-fluid{ /*- BS NAVBAR -*/
         margin: 0;
