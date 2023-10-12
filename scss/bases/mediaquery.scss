@@ -1,0 +1,861 @@
+/*!------------------------------------RESPONSIVE---------------------------------*/
+
+@media screen and (max-width:1500px) {
+    .projects {
+        .projects-container {
+            img {
+                height: 55vh;
+                margin: 45px 0 45px 45px;
+            }
+
+            .project-info {
+                h3 {
+                    font-size: 24px;
+                }
+
+                p {
+                    font-size: 14px;
+                    margin-bottom: 14px;
+                }
+
+                ul {
+                    li {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width:1370px) {
+
+    /*?----------------INDEX-----------------*/
+    header {
+        h1 {
+            font-size: 65px;
+            font-weight: 500;
+        }
+    }
+
+    .projects {
+        .projects-container {
+            img {
+                height: 50vh;
+                margin: 40px 0 40px 40px;
+            }
+
+            .project-info {
+                margin-right: 70px;
+
+                h3 {
+                    font-size: 23px;
+                }
+
+                p {
+                    font-size: 13px;
+                }
+
+                ul {
+                    li {
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+    }
+
+    /*?----------------BS NAVBAR-----------------*/
+    .nav-link {
+        font-size: 18px;
+        font-weight: 400;
+    }
+}
+
+@media screen and (max-width:1260px) {
+
+    /*?----------------INDEX-----------------*/
+    .hero {
+        h2 {
+            font-size: 50px;
+            font-weight: 500;
+            margin: 50px 50px 0 0;
+        }
+    }
+
+    .services {
+        .grid-services {
+            grid-template-columns: repeat(2, 1fr)
+        }
+    }
+
+    .projects {
+        .projects-container {
+            img {
+                height: 45vh;
+                margin: 35px 0 35px 35px;
+            }
+
+            .project-info {
+                margin-right: 70px;
+
+                h3 {
+                    font-size: 20px;
+                }
+
+                p {
+                    font-size: 12px;
+                }
+
+                ul {
+                    li {
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+
+    /*?----------------PROYECTOS-----------------*/
+    .grid-galery {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 30px;
+    }
+
+    /*?----------------BS NAVBAR-----------------*/
+    .nav-link {
+        font-size: 16px;
+        font-weight: 390;
+    }
+}
+
+@media screen and (max-width:1170px) {
+
+    /*?----------------INDEX-----------------*/
+    .projects {
+        .projects-container {
+            img {
+                height: 40vh;
+                margin: 30px 0 30px 30px;
+            }
+
+            .project-info {
+                margin-left: 20px;
+
+                h3 {
+                    font-size: 18px;
+                }
+
+                p {
+                    font-size: 11px;
+                }
+
+                ul {
+                    li {
+                        font-size: 11px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1050px) {
+
+    /*?----------------INDEX-----------------*/
+    header {
+        h1 {
+            font-size: 55px;
+            font-weight: 450;
+        }
+    }
+
+    .projects {
+        .projects-container {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 40px;
+
+            img {
+                width: 80%;
+                height: 60vh;
+                margin: 10px;
+            }
+
+            .project-info {
+                width: 90%;
+                margin: 5px;
+
+                h3 {
+                    font-size: 30px;
+                }
+
+                p {
+                    font-size: 17px;
+
+                }
+
+                ul {
+                    li {
+                        font-size: 17px;
+                    }
+                }
+
+            }
+        }
+    }
+
+    /*?--------------PAGE SERVICIOS-----------------*/
+    .disenos {
+        .intro-servicios {
+            font-size: 18px;
+        }
+
+        .automation {
+            /*!----------- AUTOMATIZACIÓN ---------------*/
+            align-items: center;
+
+            img {
+                width: 80%;
+                height: 50vh;
+            }
+
+            .auto-cont {
+                .intro-auto {
+                    font-size: 15px;
+                }
+            }
+        }
+
+        .security {
+            /*!---------- SEGURIDAD ELECTRONICA -----------*/
+            align-items: center;
+
+            img {
+                width: 80%;
+                height: 50vh;
+            }
+
+            .seg-cont {
+                .intro-seg {
+                    font-size: 15px;
+                }
+            }
+        }
+
+        .coms {
+            /*!--------- TELECM Y CAB. ESTRUCTURADO ----------*/
+            align-items: center;
+
+            img {
+                width: 80%;
+                height: 50vh;
+            }
+
+            .coms-cont {
+                .intro-coms {
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+
+    /*?----------------BS ACCORDION-----------------*/
+    .ul-auto {
+        font-size: 15px;
+    }
+
+    .ul-seg {
+        font-size: 15px;
+    }
+
+    .ul-coms {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .projects {
+        .projects-container {
+            .project-info {
+                h3 {
+                    font-size: 27px;
+                }
+
+                p {
+                    font-size: 15px;
+                }
+
+                ul {
+                    li {
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+
+    /*?----------------INDEX-----------------*/
+    .container-fluid {
+        justify-content: center !important;
+    }
+
+    .navbar-toggler {
+        border-color: rgb(111, 34, 173);
+    }
+
+    .nav-item {
+        text-align: center;
+    }
+
+    .nav-link {
+        margin: 5px;
+        padding: 0;
+        font-size: 15px;
+        font-weight: 380;
+    }
+
+    /*?--------------PAGE SERVICIOS-----------------*/
+    .disenos {
+        .automation {
+
+            /*!----------- AUTOMATIZACIÓN ---------------*/
+            .auto-cont {
+                .intro-auto {
+                    font-size: 13px;
+                    padding: 15px;
+                }
+            }
+        }
+
+        .security {
+
+            /*!---------- SEGURIDAD ELECTRONICA -----------*/
+            .seg-cont {
+                .intro-seg {
+                    font-size: 13px;
+                    padding: 15px;
+                }
+            }
+        }
+
+        .coms {
+
+            /*!--------- TELECM Y CAB. ESTRUCTURADO ----------*/
+            .coms-cont {
+                .intro-coms {
+                    font-size: 13px;
+                    padding: 15px;
+                }
+            }
+        }
+    }
+
+    /*?----------------BS ACCORDION-----------------*/
+    .ul-auto {
+        font-size: 13px;
+    }
+
+    .ul-seg {
+        font-size: 13px;
+    }
+
+    .ul-coms {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:920px) {
+
+    /*?----------------INDEX-----------------*/
+    .hero {
+        h2 {
+            font-size: 40px;
+            margin: 20px;
+        }
+    }
+
+    .whats {
+        display: none;
+    }
+
+    /*?--------------PAGE SERVICIOS-----------------*/
+    .disenos {
+        .intro-servicios {
+            font-size: 15px;
+        }
+
+        .automation {
+
+            /*!----------- AUTOMATIZACIÓN ---------------*/
+            img {
+                width: 60%;
+                height: 40vh;
+            }
+
+            .auto-cont {
+                .intro-auto {
+                    margin: 0 0 0 10px;
+                    padding: 10px;
+                }
+            }
+        }
+
+        .security {
+
+            /*!---------- SEGURIDAD ELECTRONICA -----------*/
+            img {
+                width: 60%;
+                height: 40vh;
+            }
+
+            .seg-cont {
+                .intro-seg {
+                    margin: 0 0 0 10px;
+                    padding: 10px;
+                }
+            }
+        }
+
+        .coms {
+
+            /*!--------- TELECM Y CAB. ESTRUCTURADO ----------*/
+            img {
+                width: 60%;
+                height: 40vh;
+            }
+
+            .coms-cont {
+                .intro-coms {
+                    margin: 0 0 0 10px;
+                    padding: 10px;
+                }
+            }
+        }
+    }
+
+    /*?----------------BS ACCORDION-----------------*/
+    .accordion-button {
+        font-size: 13px;
+        padding: 10px;
+    }
+
+    .accordion-body {
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .projects {
+        .projects-container {
+            margin: 15px;
+
+            .project-info {
+                h3 {
+                    font-size: 25px;
+                }
+
+                p {
+                    font-size: 13px;
+                }
+
+                ul {
+                    li {
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:700px) {
+
+    /*?----------------INDEX-----------------*/
+    .services {
+        .grid-services {
+            grid-template-columns: repeat(1, 1fr)
+        }
+    }
+
+    /*?----------------PROJECTOS-----------------*/
+    .grid-galery {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 50px;
+    }
+
+    /*?-------------------- PAGE NOSOTROS -------------------*/
+    /*!---------------------- NOSOTROS ----------------------*/
+    .nosotros {
+        .nosotros-intro {
+            p {
+                font-size: 17px;
+            }
+        }
+    }
+
+    .mis-vis-section {
+        .nosotros-container {
+            .nosotros-item {
+                width: 400px;
+                height: 250px;
+
+                h3 {
+                    font-size: 25px;
+                }
+
+                p {
+                    font-size: 17px;
+                }
+
+                ul {
+                    font-size: 17px;
+                }
+            }
+        }
+
+    }
+
+    /*?--------------PAGE SERVICIOS-----------------*/
+    .disenos {
+
+        .intro-servicios {
+            font-size: 13px;
+            margin: 15px 70px 15px 70px;
+            padding: 15px;
+
+        }
+
+        .automation {
+
+            /*!----------- AUTOMATIZACIÓN ---------------*/
+            img {
+                width: 55%;
+                height: 35vh;
+            }
+
+            .auto-cont {
+                .intro-auto {
+                    font-size: 11px;
+                    padding: 8px;
+                }
+            }
+
+        }
+
+        .security {
+
+            /*!---------- SEGURIDAD ELECTRONICA -----------*/
+            img {
+                width: 55%;
+                height: 35vh;
+            }
+
+            .seg-cont {
+                .intro-seg {
+                    font-size: 11px;
+                    padding: 8px;
+                }
+            }
+
+        }
+
+        .coms {
+
+            /*!--------- TELECM Y CAB. ESTRUCTURADO ----------*/
+            img {
+                width: 55%;
+                height: 35vh;
+            }
+
+            .coms-cont {
+                .intro-coms {
+                    font-size: 11px;
+                    padding: 8px;
+                }
+            }
+
+        }
+
+    }
+
+    /*?----------------BS ACCORDION-----------------*/
+    .ul-auto {
+        font-size: 11px;
+    }
+
+    .ul-seg {
+        font-size: 11px;
+    }
+
+    .ul-coms {
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .projects {
+        .projects-container {
+            margin: 10px;
+
+            img {
+                width: 90%;
+                height: 50vh;
+
+            }
+        }
+    }
+
+    /*?-------------------- PAGE NOSOTROS -------------------*/
+    /*!---------------------- NOSOTROS ----------------------*/
+    .nosotros {
+        .nosotros-intro {
+            p {
+                font-size: 15px;
+            }
+        }
+    }
+
+    .mis-vis-section {
+        .nosotros-container {
+            .nosotros-item {
+                h3 {
+                    font-size: 20px;
+                }
+
+                p {
+                    font-size: 15px;
+                }
+
+                ul {
+                    font-size: 15px;
+                }
+            }
+        }
+
+    }
+
+    /*?-------------------- PAGE SERVICIOS -------------------*/
+    .disenos {
+        .automation {
+            flex-direction: column;
+
+            img {
+                width: 80%;
+                height: 30vh;
+            }
+
+            .auto-cont {
+                .intro-auto {
+                    font-size: 13px;
+                    padding: 10px;
+                }
+            }
+
+
+        }
+
+        .security {
+            flex-direction: column;
+
+            img {
+                width: 80%;
+                height: 30vh;
+            }
+
+            .seg-cont {
+                .intro-seg {
+                    font-size: 13px;
+                    padding: 10px;
+                }
+            }
+        }
+
+        .coms {
+            flex-direction: column;
+
+            img {
+                width: 80%;
+                height: 30vh;
+
+            }
+
+            .coms-cont {
+                .intro-coms {
+                    font-size: 13px;
+                    padding: 10px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:550px) {
+
+    /*?----------------INDEX-----------------*/
+    header {
+        h1 {
+            font-size: 45px;
+            margin-left: 15px;
+        }
+    }
+
+    .hero {
+        flex-direction: row;
+        justify-content: center;
+        align-items: start;
+    }
+
+    /*?-------------------- PAGE CONTACTO -------------------*/
+    .ubicacion {
+        .map-ubicacion {
+            margin: 10px;
+            iframe{
+                width: 330px;
+                height: 250px;
+            }
+        }
+    }
+
+    /*?----------------BS NAVBAR-----------------*/
+    .nav-link {
+        font-size: 13px;
+        font-weight: 350;
+    }
+
+    .container-fluid {
+        margin: 0;
+        align-items: center;
+    }
+
+    .navbar-toggler {
+        padding-top: 1px;
+        padding-bottom: 1px;
+        padding-left: 2px;
+        padding-right: 2px;
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width:487px) {
+
+    /*?----------------INDEX-----------------*/
+    header {
+        h1 {
+            font-size: 40px;
+            font-weight: 400;
+        }
+    }
+
+    .projects {
+        .projects-container {
+            img {
+                width: 100%;
+                height: 40vh;
+            }
+
+            .project-info {
+                h3 {
+                    font-size: 20px;
+                }
+
+                p {
+                    font-size: 11px;
+                }
+
+                ul {
+                    li {
+                        font-size: 11px;
+                    }
+                }
+            }
+        }
+    }
+
+    /*?-------------------- PAGE NOSOTROS -------------------*/
+    /*!---------------------- NOSOTROS ----------------------*/
+    .nosotros {
+        .nosotros-intro {
+            p {
+                font-size: 11px;
+                margin: 30px 70px 30px 70px;
+            }
+        }
+    }
+
+    .mis-vis-section {
+        .nosotros-container {
+            .nosotros-item {
+                height: 200px;
+
+                h3 {
+                    font-size: 17px;
+                }
+
+                p {
+                    font-size: 11px;
+                }
+
+                ul {
+                    font-size: 11px;
+                }
+            }
+        }
+
+    }
+
+    /*?-------------------- PAGE SERVICIOS -------------------*/
+    .disenos {
+        .intro-servicios {
+            font-size: 13px;
+            margin: 15px 30px 15px 30px;
+        }
+
+        .automation {
+            img {
+                width: 80%;
+                height: 25vh;
+            }
+        }
+
+        .security {
+            img {
+                width: 80%;
+                height: 25vh;
+            }
+        }
+
+        .coms {
+            img {
+                width: 80%;
+                height: 25vh;
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width:410px) {
+
+    /*?----------------INDEX-----------------*/
+    .hero {
+        h2 {
+            font-size: 30px;
+        }
+    }
+
+    .services {
+        .grid-services {
+            .grid-services-item {
+                height: 300px;
+
+                img {
+                    height: 200px;
+                }
+
+            }
+        }
+    }
+}

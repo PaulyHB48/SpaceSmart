@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+/*------------------------ GENERAL -------------------------*/
+/*!------------------------ RESET --------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*!------------------------ BS NAV --------------------------*/
+.container-fluid{
+    margin-right:10px;
+}
+.nav-link{
+    color: darkgrey !important;
+    font-size: 20px;
+    font-weight: bold;
+}
+/*!------------------- BS ICONOS FOOTER ---------------------*/
+.bi{
+    font-size: 30px;
+    color: rgb(40, 3, 71);
+    margin-left: 5px;
+    margin-right: 5px;
+}
+/*!------------- BS ACCORDION PAGE SERVICIOS ----------------*/
+.accordion{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.accordion-button{
+    background-color:rgb(207, 185, 225) !important;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+}
+.accordion-button:focus{
+    box-shadow:none;
+}
+
+/*!----------------------- BS FORM ------------------------*/
+.mb-3{
+    margin: 10px 100px 3px 100px;
+    box-shadow:rgba(110, 34, 173, 0.368) !important;
+} 
+.btn{
+    color: rgb(207, 185, 225);
+    background-color: rgb(111, 34, 173) ;
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
