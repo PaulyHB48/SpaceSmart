@@ -16,7 +16,7 @@
     align-items: flex-end;
 
     h2 {
-        font-size: 70px;
+        font-size: nth($font-sz, 6); //APLICACIÓN LISTAS ($font-sz: 10px, 15px, 20px, 25px, 30px, 70px)
         font-weight: 500;
         margin-top: 70px;
         margin-right: 70px;
@@ -26,12 +26,7 @@
 /*!------------------------- SERVICES ------------------------*/
 .services {
     h2 {
-        background-color: rgba(0, 0, 0, 0.749);
-        text-align: center;
-        font-size: 30px;
-        font-family: 'Ubuntu', sans-serif;
-        color: rgb(207, 185, 225);
-        padding: 10px;
+        @extend %titulos-sections; //APLICACIÓN EXTENDS (%titulos-sections):
     }
 
     .grid-services {
@@ -57,16 +52,16 @@
             }
 
             h3 {
-                font-size: 20px;
+                font-size: nth($font-sz, 3); //APLICACIÓN LISTAS ($font-sz: 10px, 15px, 20px, 25px, 30px, 70px)
                 margin-bottom: 20px;
             }
 
             a {
                 text-decoration: none;
-                color: rgb(111, 34, 173);
-                background-color: rgb(186, 182, 189);
+                color: $color-spacesmart; //APLICACIÓN VARIABLES
+                background-color:rgba(128, 128, 128, 0.478);
                 border-radius: 50%;
-                font-size: 15px;
+                font-size: nth($font-sz, 2); //APLICACIÓN LISTAS ($font-sz: 10px, 15px, 20px, 25px, 30px, 70px)
                 padding: 10px;
             }
         }
@@ -76,18 +71,11 @@
 /*!------------------------ PROJECTS -----------------------*/
 .projects {
     h2 {
-        background-color: rgba(0, 0, 0, 0.749);
-        text-align: center;
-        font-size: 30px;
-        font-family: 'Ubuntu', sans-serif;
-        color: rgb(207, 185, 225);
-        padding: 10px;
+        @extend %titulos-sections; //APLICACIÓN EXTENDS (%titulos-sections):
     }
 
-    .projects-container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    .projects-container { 
+        @include flexbox (flex,center,center); //APLICACIÓN MIXINS: @mixin flexbox($flex, $justify, $align)
 
         img {
             width: 100%;
@@ -166,9 +154,7 @@
 
 
     .nosotros-container{
-        display: flex;
-        justify-content: space-around;
-        align-items:center;
+        @include flexbox (flex,space-around,center); //APLICACIÓN MIXINS: @mixin flexbox($flex, $justify, $align)
         flex-wrap: wrap;
         margin: 0 50px 30px 50px;
 
@@ -176,7 +162,7 @@
             width: 450px;
             height: 300px;
             border: 3px solid rgb(96, 96, 96);
-            box-shadow: 10px 5px 5px rgba(110, 34, 173, 0.368);
+            box-shadow: 10px 5px 5px $color-shadow; //APLICACIÓN VARIABLES
             justify-items: center;
             margin: 10px;
             h3{

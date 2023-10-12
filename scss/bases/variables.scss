@@ -1,0 +1,25 @@
+/*$-------------------- VARIABLES --------------------*/
+$color-spacesmart: rgb(111, 34, 173);
+$color-bg-tituloh2: rgba(0, 0, 0, 0.749);
+$color-txt-tituloh2:  rgb(207, 185, 225);
+$color-shadow:  rgba(110, 34, 173, 0.368);
+
+/*$-------------------- LISTA FONT -------------------*/
+$font-sz: 10px, 15px, 20px, 25px, 30px, 70px;
+
+/*$--------------------- EXTENDS ---------------------*/
+%titulos-sections{
+    background-color: $color-bg-tituloh2; //APLICACIÓN VARIABLES
+    text-align:center;
+    font-size: nth($font-sz, 5); //APLICACIÓN LISTAS ($font-sz: 10px, 15px, 20px, 25px, 30px, 70px)
+    font-family: 'Ubuntu', sans-serif;
+    color: $color-txt-tituloh2; //APLICACIÓN VARIABLES
+    padding: 10px;
+}
+
+/*$--------------------- MIXINS ---------------------*/
+@mixin flexbox($flex, $justify, $align){
+    display: $flex;
+    justify-content: $justify;
+    align-items: $align;
+}
