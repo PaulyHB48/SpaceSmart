@@ -1,5 +1,5 @@
 /*------------------------- HEADER ------------------------*/
-header{
+header {
     width: 100%;
     background-color: rgb(0, 0, 0);
     position: sticky;
@@ -9,7 +9,9 @@ header{
     align-items: center;
     justify-content: space-between;
     z-index: 1;
-    h1{
+
+
+    h1 {
         font-size: 70px;
         font-weight: 600;
         color: $color-spacesmart; //APLICACIÓN VARIABLES
@@ -17,5 +19,3 @@ header{
         margin-left: 30px;
     }
 }
-
-

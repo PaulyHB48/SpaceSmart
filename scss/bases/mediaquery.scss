@@ -170,110 +170,110 @@
             font-weight: 450;
         }
     }
+}
 
-    .projects {
-        .projects-container {
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            margin: 40px;
+.projects {
+    .projects-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 40px;
 
-            img {
-                width: 80%;
-                height: 60vh;
-                margin: 10px;
+        img {
+            width: 80%;
+            height: 60vh;
+            margin: 10px;
+        }
+
+        .project-info {
+            width: 90%;
+            margin: 5px;
+
+            h3 {
+                font-size: 30px;
             }
 
-            .project-info {
-                width: 90%;
-                margin: 5px;
+            p {
+                font-size: 17px;
 
-                h3 {
-                    font-size: 30px;
-                }
+            }
 
-                p {
+            ul {
+                li {
                     font-size: 17px;
-
                 }
+            }
 
-                ul {
-                    li {
-                        font-size: 17px;
-                    }
-                }
+        }
+    }
+}
 
+/*?--------------PAGE SERVICIOS-----------------*/
+.disenos {
+    .intro-servicios {
+        font-size: 18px;
+    }
+
+    .automation {
+        /*!----------- AUTOMATIZACIÓN ---------------*/
+        align-items: center;
+
+        img {
+            width: 80%;
+            height: 50vh;
+        }
+
+        .auto-cont {
+            .intro-auto {
+                font-size: 15px;
             }
         }
     }
 
-    /*?--------------PAGE SERVICIOS-----------------*/
-    .disenos {
-        .intro-servicios {
-            font-size: 18px;
+    .security {
+        /*!---------- SEGURIDAD ELECTRONICA -----------*/
+        align-items: center;
+
+        img {
+            width: 80%;
+            height: 50vh;
         }
 
-        .automation {
-            /*!----------- AUTOMATIZACIÓN ---------------*/
-            align-items: center;
-
-            img {
-                width: 80%;
-                height: 50vh;
-            }
-
-            .auto-cont {
-                .intro-auto {
-                    font-size: 15px;
-                }
-            }
-        }
-
-        .security {
-            /*!---------- SEGURIDAD ELECTRONICA -----------*/
-            align-items: center;
-
-            img {
-                width: 80%;
-                height: 50vh;
-            }
-
-            .seg-cont {
-                .intro-seg {
-                    font-size: 15px;
-                }
-            }
-        }
-
-        .coms {
-            /*!--------- TELECM Y CAB. ESTRUCTURADO ----------*/
-            align-items: center;
-
-            img {
-                width: 80%;
-                height: 50vh;
-            }
-
-            .coms-cont {
-                .intro-coms {
-                    font-size: 15px;
-                }
+        .seg-cont {
+            .intro-seg {
+                font-size: 15px;
             }
         }
     }
 
-    /*?----------------BS ACCORDION-----------------*/
-    .ul-auto {
-        font-size: 15px;
-    }
+    .coms {
+        /*!--------- TELECM Y CAB. ESTRUCTURADO ----------*/
+        align-items: center;
 
-    .ul-seg {
-        font-size: 15px;
-    }
+        img {
+            width: 80%;
+            height: 50vh;
+        }
 
-    .ul-coms {
-        font-size: 15px;
+        .coms-cont {
+            .intro-coms {
+                font-size: 15px;
+            }
+        }
     }
+}
+
+/*?----------------BS ACCORDION-----------------*/
+.ul-auto {
+    font-size: 15px;
+}
+
+.ul-seg {
+    font-size: 15px;
+}
+
+.ul-coms {
+    font-size: 15px;
 }
 
 @media screen and (max-width:992px) {

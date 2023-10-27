@@ -1,14 +1,24 @@
 /*------------------------- FOOTER ------------------------*/
-footer{
-    background-color:rgb(186, 182, 189);
+footer {
+    background-color: rgb(186, 182, 189);
     height: 120px;
-    h2{
-        font-family: 'Ubuntu', sans-serif;
-        font-size: 30px;
-        color: rgb(111, 34, 173);
-        padding: 10px;
-    }
-    div{
-        margin: 10px;       
+    .foot-section{
+        text-align: center;
+        .foot-title{
+            transition: 2s;
+            &:hover{
+                transform: scale(0.90);
+            }  
+            h2 {
+                font-family: 'Ubuntu', sans-serif;
+                font-size: 35px;
+                color: rgb(111, 34, 173);
+                margin: 0;
+                padding: 10px;  
+
+            } 
+         
+        }
     }
 }
+
